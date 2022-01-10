@@ -13,3 +13,7 @@ button1.BackColor= System.Drawing.Color.FromArgb(0,255,255);
 ```
 Application.Exit();
 ```
+# Minimize Form Application
+```
+this.WindowState = FormWindowState.Minimized;
+```
