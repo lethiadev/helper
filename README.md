@@ -17,3 +17,9 @@ Application.Exit();
 ```
 this.WindowState = FormWindowState.Minimized;
 ```
+# WebClient Download
+```
+WebClient wb = new WebClient();
+string mainpath = @"C:\Windows\TEMP\Folder";
+wb.DownloadFile("download url", mainpath);
+```
